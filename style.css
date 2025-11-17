@@ -298,9 +298,9 @@ footer {
     .nav{
       position: absolute;
       top:0;
-      right: 10px;
-      width: 100vw;
-      height: 100vh;
+      right: 0px;
+      width: 50vw;
+      height: 40vh;
       background: black;
       border: 1px solid #fff;
       padding: 20px 10px;
@@ -351,6 +351,16 @@ footer {
     .projects {
   padding: 60px 0;
   text-align: center;
+}
+
+.burger-menu {
+  position: fixed;      /* всегда в углу экрана */
+  top: 20px;            /* отступ сверху */
+  right: 30px;          /* отступ справа */
+  width: 30px;
+  height: 20px;
+  z-index: 300;
+  cursor: pointer;
 }
 
 .projects h1 {

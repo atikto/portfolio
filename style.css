@@ -311,7 +311,12 @@ footer {
       flex-direction: column;
     }
 
-    
+    .geo-icon{
+    width: 304px;
+    height: 150;
+    position: relative;
+    left: 1px;
+    }
   }
 
   /* active */
